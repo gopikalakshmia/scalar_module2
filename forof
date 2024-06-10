@@ -1,0 +1,24 @@
+//for of array mainly for iterative items like array ,strings,..
+
+var arr=["red","yellow","orange"];
+
+for(var color of arr)
+    {
+        console.log(color);//gives the value directly
+    }
+
+
+    //to get indexes using  for-of
+
+    var num=[50,60,70,80];
+
+    for (var [index,n] of num.entries()){
+        console.log(index);//indexes
+        console.log(n);//value
+    }
+
+
+    var str="gopika";
+    for(var s of str){
+        console.log(s);
+    }

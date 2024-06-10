@@ -1,0 +1,19 @@
+//forin are mainly for objects can also use for Arrays
+var me={
+    fname:"gopika",
+    lname:"lakshmi"
+}
+
+for (var name in me){
+    console.log(name);//key of obj
+    console.log(me[name]);//value of obj
+}
+
+//array
+
+var colors=["red" ,"white","yellow"]
+
+for (var color in colors){
+    console.log(color);//key of array are index
+    console.log(colors[color]);
+}
