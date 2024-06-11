@@ -1,0 +1,21 @@
+//in the memory a asigned as undefined,while executing it should print the value before it is assigned
+console.log(a);
+var a=16;
+
+
+//but in memory for function,in the call of function -t the entire function will be assigned it self to that function
+greet();
+function greet(){
+    console.log("hi");
+}
+
+
+
+//here in memory add is a variable,and undefined is assigned to that variable,so call an undefined variable causing error in the code,
+//so for writing better code the function/variable call should after the declaration,thatb is called function hoisting
+
+//Hoisting is a concept or behavior in JavaScript where the declaration of a function, variable, or class goes to the top of the scope they were defined in.
+add(3,2);
+var add=function(a,b){
+    console.log(a+b);
+}
